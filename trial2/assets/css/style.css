@@ -1,0 +1,75 @@
+
+body{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+ul{
+    list-style: none ;
+}
+.themes{
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: left;
+    color: white;
+}
+.themes p.themes-btn {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 10px;
+	border-radius: 0px 5px 5px 0;
+    text-align: center;
+    transition: all .5s ease;
+    cursor: pointer;
+    margin: 0;
+}
+.themes p.themes-btn:hover {
+	box-shadow: 1px 2px 7px aqua;
+}
+.themes .colors{
+    float: left;
+    background-color: #333;
+    border-radius: 0px 5px 5px 0;
+    margin-left: -300px;
+}
+.themes .colors.active{
+    margin-left: 0;
+}
+.themes .themes-btn{
+    float: right;
+    cursor: pointer;
+}
+.themes ul li{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 7.8px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.themes ul.theme-colors li:nth-child(1),
+.themes ul.logo-colors li:nth-child(1){
+    background-color: brown;
+    color: brown;
+}
+.themes ul.theme-colors li:nth-child(2),
+.themes ul.logo-colors li:nth-child(2){
+    background-color: blueviolet;
+    color: blueviolet;
+}
+.themes ul.theme-colors li:nth-child(3),
+.themes ul.logo-colors li:nth-child(3){
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.themes ul.theme-colors li:nth-child(4),
+.themes ul.logo-colors li:nth-child(4){
+    background-color: olive;
+    color: olive;
+}
+.themes ul.theme-colors li:nth-child(5),
+.themes ul.logo-colors li:nth-child(5){
+    background-color: greenyellow;
+    color: greenyellow;
+}
